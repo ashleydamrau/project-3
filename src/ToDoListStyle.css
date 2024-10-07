@@ -1,0 +1,108 @@
+* {
+  text-align: center;
+}
+
+.toDoListHeader {
+  font-size: 60px;
+  color: rgb(127, 133, 247);
+}
+
+.tasksContainer {
+  background-color: rgba(0, 0, 0, 0.886);
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px;
+}
+
+ol {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  color: white;
+  font-size: 30px;
+  border: 0.8px solid rgba(156, 160, 252, 0.864);
+  padding: 10px;
+}
+
+span.text {
+  flex-grow: 1; /* Makes the text take up available space */
+  margin: 40px; /* Adds space between the text and buttons */
+}
+
+.toDolistDeleteButton {
+  width: 100px;
+}
+
+button {
+  margin-right: 5px;
+  margin-left: 5px;
+  border-radius: 15px;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgba(156, 160, 252, 0.864);
+  font-size: 25px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(110, 117, 246)
+}
+
+.toDoListInput {
+  margin-bottom: 20px;
+  width: 300px;
+  height: 35px;
+  padding: 5px;
+  border-radius: 15px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+input:focus { 
+  outline: none;
+  background-color: rgb(240, 240, 240);
+}
+
+.toDoListAddButton {
+  height: 50px;
+  width: 110px;
+}
+
+.toDoListCompletedButton {
+  height: 30px;
+  width: 30px;
+  background-color: white;
+  font-size: 15px;
+  color: black;
+}
+
+.toDoListCompletedButton:hover {
+  background-color: rgb(174, 251, 186);
+}
+
+.toDolistDeleteButtonCompleted {
+  height: 30px;
+  width: 90px;
+  background-color: rgba(156, 160, 252, 0.864);
+  color: black;
+}
+
+span.completedText {
+  color: black;
+  padding: 20px;
+}
+
+.completedTasks {
+  background-color: rgba(156, 160, 252, 0.864);
+  font-size: 25px;
+  border-radius: 25px;
+  margin: 0 20px;
+  padding-bottom: 20px;
+
+}
